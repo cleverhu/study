@@ -1,0 +1,2 @@
+protoc315 --proto_path=protos --plugin=protoc-gen-go=/Users/cleverhu/go/bin/protoc-gen-go --go_out=./ models.proto
+protoc315 --proto_path=protos --plugin=protoc-gen-go=/Users/cleverhu/go/bin/protoc-gen-go --go-grpc_out=./ services.proto

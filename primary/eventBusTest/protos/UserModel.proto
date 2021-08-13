@@ -1,0 +1,7 @@
+syntax = "proto3";
+option go_package = ".;models";
+message  UserModel {
+  int32 UserId =1;   //传入的用户ID
+  string UserName=2;
+  int32 Score=3;
+}
